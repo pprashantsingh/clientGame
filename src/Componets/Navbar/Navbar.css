@@ -1,26 +1,23 @@
 .navbar_wrapper {
   display: flex;
-  align-items: center;
   padding: 10px 20px;
-  height: 80px;
+  justify-content: space-between;
   background: #000;
 }
 
-/* .navbar_logo img {
-  width: 58px;
-  height: 64px;
-} */
-
-.navbar_text {
-  margin-right: 155vh;
+.nav_subwrapper{
+  display: flex;
+  gap:10px;
+  align-items: center;
 }
 
-.navbar_text p {
+
+.navbar_text{
   font-family: "Cinzel";
   font-size: 42px;
   font-weight: 700;
+  margin: 0px;
   color: #ffff;
-  margin-left: 10px;
 }
 
 .navbar_text span {
