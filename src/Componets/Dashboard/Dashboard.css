@@ -1,0 +1,36 @@
+.dashboard_container {
+    flex: 1;
+    border-radius: 23px;
+    background: linear-gradient(#170236, #430555);
+    display: flex;
+    gap: 28px;
+}
+
+.dashbord_girlImage{
+    height: 100vh;
+    flex: 1;
+    border: 1px soild white;
+}
+
+.dashboard_subcontainer{
+    flex:1;
+    border:1px solid red;
+}
+
+.dash_heading{
+    font-family: Alice;
+    font-weight: 400;
+    font-size: 48px;
+    align-items: center;
+}
+
+.dash-style{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+    align-items: center;
+}
+
+.dash_style{
+    padding: 10px 10px;
+}
