@@ -7,7 +7,7 @@
 }
 
 .dashbord_girlImage{
-    height: 100vh;
+    /* height: 100vh; */
     flex: 1;
     border: 1px soild white;
 }
