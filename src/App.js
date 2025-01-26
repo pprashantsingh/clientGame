@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Dashboard from "./Componets/Dashboard/Dashboard";
+import Navbar from "./Componets/Navbar/Navbar";
 
 function App() {
   return (
     <>
-     <h1>hello world new</h1>
+      <Navbar />
+      <Dashboard/>
     </>
   );
 }
