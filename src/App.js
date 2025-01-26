@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import images from './assets';
+import Dashboard from './Componets/Dashboard/Dashboard';
+import Navbar from './Componets/Navbar/Navbar';
 
 function App() {
   return (
     <>
-    <img src={images?.logo} alt='logo' className='logo'/>
-     <h1>hello world new</h1>
+    <Navbar/>
+    <Dashboard/>
     </>
   );
 }
