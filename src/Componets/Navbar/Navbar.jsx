@@ -5,12 +5,12 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar_wrapper">
-      <div className="navbar_logo">
-        <img src={images.logo} alt="navbar_logo" />
-      </div>
-      <div className="navbar_text">
-        <p>
-          Rocket<span>BET</span>
+      <div className="nav_subwrapper">
+        <div className="navbar_logo">
+          <img src={images.logo} alt="navbar_logo" />
+        </div>
+        <p className="navbar_text">
+            Rocket<span>BET</span>
         </p>
       </div>
       <div className="play_now">
