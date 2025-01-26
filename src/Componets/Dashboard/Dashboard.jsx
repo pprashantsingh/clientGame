@@ -10,16 +10,20 @@ const Dashboard=()=>{
             </div>
             <div className="dashboard_subcontainer">
                 <span className="dash_heading">
-                <p>#World No-1</p>
-                <p>Most Trusted Betting App</p>
+                <p className="dash-p1">#World No-1</p>
+                <p className="dash-p2">Most Trusted Betting App</p>
                 </span>
-                <p className="dash-style">Play Any Time - Get it On</p>
-                <span >
-                    <button className="dash_style">Google PlayStore</button>
-                    <button className="dash_style">App Store</button>
+                <p className="dash-p3">Play Any Time - Get it On</p>
+                <span className="dash_btn_style">
+                    <button className="dash_style">
+                        <img src={images.playstore} alt="playstore" className="dash_playstore"/>
+                        Google PlayStore</button>
+                    <button className="dash_style">
+                        <img src={images.applestore} alt="applestore" className="dash_applestore"/>
+                    App Store</button>
                 </span>
-                <p>100% Winning Guaranteed</p>
-                <p>“No Loss Here - 100% Sure Profit”</p>
+                <p className="dash-p3"><span className="dash_span">100%</span> Winning Guaranteed</p>
+                <p className="dash-p4">“No Loss Here - 100% Sure Profit”</p>
             </div>
         </div>
         </>

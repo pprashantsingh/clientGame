@@ -1,9 +1,11 @@
 .dashboard_container {
+    margin: 10px 20px;
     flex: 1;
     border-radius: 23px;
     background: linear-gradient(#170236, #430555);
     display: flex;
     gap: 28px;
+    flex-wrap: wrap;
 }
 
 .dashbord_girlImage{
@@ -13,23 +15,77 @@
 
 .dashboard_subcontainer{
     flex:1;
-    border:1px solid red;
+    margin-top: 80px;
 }
 
 .dash_heading{
     font-family: Alice;
     font-weight: 400;
     font-size: 48px;
-    align-items: center;
+    line-height: 1.2;
 }
 
-.dash-style{
+.dash-p1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-p2{
+    color: #FFD400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-p3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.3;
+}
+
+.dash-p4{
     font-family: Roboto;
     font-weight: 500;
     font-size: 32px;
     align-items: center;
+    color: #FFD400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.dash_span{
+    color: #FFD400;
+}
+.dash_btn_style{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .dash_style{
-    padding: 10px 10px;
+    font-family: Roboto;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 28px;
+}
+
+.dash_playstore{
+    max-width: 13%;
+    min-height: 10%;
+}
+
+.dash_applestore{
+    max-width: 30%;
+    min-height: 10%;
 }
