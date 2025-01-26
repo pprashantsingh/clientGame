@@ -1,13 +1,12 @@
-import './App.css';
-import images from './assets';
-import Dashboard from './Componets/Dashboard/Dashboard';
-import Navbar from './Componets/Navbar/Navbar';
+import "./App.css";
+import Dashboard from "./Componets/Dashboard/Dashboard";
+import Navbar from "./Componets/Navbar/Navbar";
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Dashboard/>
+      <Navbar />
+      {/* <Dashboard/> */}
     </>
   );
 }
