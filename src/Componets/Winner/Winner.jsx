@@ -5,10 +5,10 @@ import images from "../../assets";
 const Winner = () => {
   return (
     <div className="winner-wrapper">
-      {/* <div className="winner-heading-section">
-        <h1 className="winner-heading">Winners</h1>
-      </div> */}
-
+      <div className="winner-heading-section">
+        <button className="winner-heading">Winners</button>
+      </div>
+<div className="winner_subconatiner">
       <div className="latest-winners-section">
         <div className="latest-winner">
           <p className="section-title">Latest Winners</p>
@@ -88,6 +88,7 @@ const Winner = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

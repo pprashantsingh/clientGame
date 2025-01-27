@@ -1,12 +1,12 @@
-.winner-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    padding: 20px;
-    gap: 30px;
-    flex-wrap: wrap;
+  .winner_subconatiner{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        padding: 20px;
+        gap: 30px;
+        flex-wrap: wrap;
   }
   
   .winner-heading-section {
@@ -27,7 +27,11 @@
     font-family: "Alice", serif;
     font-size: 48px;
     font-weight: bold;
-    color: #ffd700;
+    color:black;
+    background-color: #ffd700;
+    padding:2px 20px 2px 20px;
+    border: none;
+    border-radius: 8px;
   }
   
   .latest-winners-section,
@@ -49,6 +53,14 @@
     align-items: center;
     gap: 15px;
     transition: transform 0.2s ease-in-out;
+    margin-bottom: 10px;
+  }
+  .winner-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 10px;
   }
 
   .winner-item:hover{
