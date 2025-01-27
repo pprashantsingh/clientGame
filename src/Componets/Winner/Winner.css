@@ -1,0 +1,43 @@
+.Winner_Wrapper{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.winner_heading{
+    font-family: Alice;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.aarav{
+    display: flex;
+}
+
+.winner_store{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner_button{
+    font-family: Roboto;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 28px;
+}
+
+.winner_playstore{
+    max-width: 13%;
+    min-height: 10%;
+}
+
+.winner_applestore{
+    max-width: 30%;
+    min-height: 10%;
+}

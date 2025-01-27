@@ -30,6 +30,7 @@ import men3 from "./images/Ellipse 24 (2).png"
 import men4 from "./images/Ellipse 24 (3).png"
 import men5 from "./images/Ellipse 24 (4).png"
 import men6 from "./images/Ellipse 24 (5).png";
+import pot from "./images/file (12) 1.png"
 const images={
     logo,
     playicon,
@@ -62,7 +63,8 @@ const images={
     men3,
     men4,
     men5,
-    men6
+    men6,
+    pot
     
 }
 
