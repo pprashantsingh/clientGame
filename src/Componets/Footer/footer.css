@@ -1,0 +1,107 @@
+.footer_container{
+    background:linear-gradient(#170236, #430555) ;
+    min-height: 100px;
+   
+}
+
+._footer_container_row{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+._footer_container_row_col{
+    flex: 1;
+    padding-left: 10px;
+    min-height: 100px;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+._footer_container_row_col-1{
+    flex: 1.5;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+._footer_container_row_col-partner{
+    flex: 1.5;
+     margin-top: 20px;
+}
+._footer_rocket_bet_title p{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    font-family: "Cinzel";
+}
+._footer_rocket_bet_title p span{
+    margin-left: -10px;
+    font-size: 40px;
+    color: rgb(246, 246, 10);
+    font-family: "Cinzel";
+}
+.navbar_top_image_container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.support_team_title{
+    margin-top: 20px;
+    color: rgb(246, 246, 10);
+    font-size: 14px;
+    font-weight: 600;
+}
+._mail_title{
+    color: white;
+    font-size: 14px;
+}
+._footer_location_container,
+._footer_mail_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+._footer_availabel_on{
+    margin-top: 15px;
+}
+.availabel_on_title{
+    color: white;
+    font-size: 14px;
+}
+._availabel_on_image_container{
+    display: flex;
+    gap: 10px;
+}
+._footer_title_container{
+    color: yellow;
+}
+._footer_spade_title{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+._footer_spade_attributes{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+._follow_us_on_media_image_container{
+    display: flex;
+    gap: 10px;
+}
+._footer_col_media_to_follow{
+    margin-top: 20px;
+}
+._footer_spade_title{
+    margin-bottom: 10px;
+}
+
+._game_integraty_container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+._our_payment_partner_container{
+    margin-top: 20px;
+}
