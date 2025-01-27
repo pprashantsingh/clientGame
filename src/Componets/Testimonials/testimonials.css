@@ -30,6 +30,7 @@
 
 ._testimonials_btn_container{
   display: flex;
+  margin-top: 20px;
   justify-content: center;
 }
 .testimonials_btn{
