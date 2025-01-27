@@ -1,202 +1,207 @@
 .dashboard_container {
-    margin: 10px 20px;
-    flex: 1;
+  margin: 30px 20px 10px 20px;
+  flex: 1;
+  border-radius: 23px;
+  background: linear-gradient(#170236, #430555);
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  min-height: 600px;
+}
+
+.dashbord_girlImage {
+  flex: 1;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.dashboard_subcontainer {
+  flex: 1;
+  margin-top: 80px;
+}
+
+.dash_heading {
+  font-family: Alice;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.dash-p1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash-p2 {
+  color: #ffd400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash-p3 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.3;
+}
+
+.dash-p4 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  align-items: center;
+  color: #ffd400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash_span {
+  color: #ffd400;
+}
+.dash_btn_style {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dash_style {
+  font-family: Roboto;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dash_style:hover {
+  transform: scale(1.06);
+}
+
+.dash_playstore {
+  max-width: 13%;
+  min-height: 10%;
+}
+
+.dash_applestore {
+  max-width: 30%;
+  min-height: 10%;
+}
+
+@media screen and (max-width: 650px) {
+  .dashboard_container {
+    flex: 2;
     border-radius: 23px;
     background: linear-gradient(#170236, #430555);
-    display: flex;
-    gap: 28px;
-    flex-wrap: wrap;
-}
+    gap: 20px;
+    flex-direction: column;
+  }
 
-.dashbord_girlImage{
+  .dashbord_girlImage {
+    width: 90%;
+    max-width: 400px;
+    /* border: 1px solid white;  */
+  }
+
+  .dashboard_subcontainer {
     flex: 1;
-    border: 1px soild white;
-}
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
-.dashboard_subcontainer{
-    flex:1;
-    margin-top: 80px;
-}
-
-.dash_heading{
+  .dash_heading {
     font-family: Alice;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 1.2;
-}
+  }
 
-.dash-p1{
-    color: white;
+  .dash_btn_style {
+    gap: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.dash-p2{
-    color: #FFD400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  .dash_playstore {
+    max-width: 14%;
+    min-height: 5%;
+  }
 
-.dash-p3{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 32px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2.3;
-}
+  .dash_applestore {
+    max-width: 14%;
+    min-height: 5%;
+  }
 
-.dash-p4{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 32px;
-    align-items: center;
-    color: #FFD400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dash_span{
-    color: #FFD400;
-}
-.dash_btn_style{
-    gap: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.dash_style{
+  .dash_style {
     font-family: Roboto;
     padding: 5px 10px 5px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 28px;
+    font-size: 14px;
+  }
+
+  .dash-p3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.3;
+  }
+
+  .dash-p4 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: center;
+    color: #ffd400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.dash_playstore{
-    max-width: 13%;
-    min-height: 10%;
-}
+@media screen and (max-width: 953px) {
+  .dashboard_container {
+    flex: 2;
+    border-radius: 23px;
+    background: linear-gradient(#170236, #430555);
+    gap: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.dash_applestore{
-    max-width: 30%;
-    min-height: 10%;
-}
+  .dash_img_style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
 
+  .dashbord_girlImage {
+    flex: 2;
+    border: 1px soild white;
+  }
 
-@media screen and (max-width:650px){
-    .dashboard_container {
-        flex: 2;
-        border-radius: 23px;
-        background: linear-gradient(#170236, #430555);
-        gap: 20px;
-        flex-direction: column;
-    }
-
-    .dashbord_girlImage{
-        width: 90%;  
-        max-width: 400px; 
-        /* border: 1px solid white;  */
-    }
-
-    .dashboard_subcontainer{
-        flex:1;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-
-    .dash_heading{
-        font-family: Alice;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 1.2;
-    }
-
-    .dash_btn_style{
-        gap: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .dash_playstore{
-        max-width: 14%;
-        min-height: 5%;
-    }
-
-    .dash_applestore{
-        max-width: 14%;
-        min-height: 5%;
-    }
-
-    .dash_style{
-        font-family: Roboto;
-        padding: 5px 10px 5px 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        font-size: 14px;
-    }
-
-    .dash-p3{
-        font-family: Roboto;
-        font-weight: 500;
-        font-size: 20px;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 2.3;
-    }
-
-    .dash-p4{
-        font-family: Roboto;
-        font-weight: 500;
-        font-size: 20px;
-        align-items: center;
-        color: #FFD400;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    
-}
-
-@media screen and (max-width:953px){
-    .dashboard_container {
-        flex: 2;
-        border-radius: 23px;
-        background: linear-gradient(#170236, #430555);
-        gap: 28px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .dash_img_style{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* border: 2px solid red; */
-    }
-
-    .dashbord_girlImage{
-        flex: 2;
-        border: 1px soild white;
-    }
-
-    .dashboard_subcontainer{
-        flex:1;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
+  .dashboard_subcontainer {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
