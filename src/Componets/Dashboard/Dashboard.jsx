@@ -5,7 +5,7 @@ const Dashboard=()=>{
     return(
         <>
         <div className="dashboard_container">
-            <div>
+            <div className="dash_img_style">
                 <img src={images.girl} alt="girl" className="dashbord_girlImage"/>
             </div>
             <div className="dashboard_subcontainer">
