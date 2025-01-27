@@ -19,12 +19,12 @@ const RummySite = () => {
             </div>
             <div className="rummy_text">
               <h3>
-                Play the Most Loved <span>Rocket Bet Games</span>
+                Play the Most Loved <span>Rocket Bet</span> Games
               </h3>
               <ul>
                 <li>✔ Play Points Pool & deals Rummy</li>
                 <li>✔ Play 24*7 Online Anytime Here</li>
-                <li>✔ Free Tournaments Every Day Rocket Bet</li>
+                <li>✔ Free Tournaments Every Day<span className="span_text"> Rocket Bet</span></li>
               </ul>
             </div>
           </div>
@@ -40,7 +40,7 @@ const RummySite = () => {
             </div>
             <div className="rummy_text">
               <h3>
-                100% <span>Safe and Secure</span>
+              <span>100%</span> Safe and Secure
               </h3>
               <ul>
                 <li>✔ RNG & No-Bot Certified Games</li>
@@ -61,7 +61,7 @@ const RummySite = () => {
             </div>
             <div className="rummy_text">
               <h3>
-                The Great <span>Rummy Experience</span>
+                The Great <span>Rummy</span> Experience
               </h3>
               <ul>
                 <li>✔ 8 Crore+ Players - No Waiting Time</li>
@@ -82,7 +82,7 @@ const RummySite = () => {
             </div>
             <div className="rummy_text">
               <h3>
-                <span>Responsible Gaming</span>
+                Responsible Gaming
               </h3>
               <ul>
                 <li>✔ Strict Fair Play & Responsible Policies</li>
@@ -103,7 +103,7 @@ const RummySite = () => {
             </div>
             <div className="rummy_text">
               <h3>
-                Best <span>Rewards & VIP Services</span>
+                Best <span>Rewards</span> & <span>VIP Services</span>
               </h3>
               <ul>
                 <li>✔ Exclusive Bonuses & Promotions</li>
