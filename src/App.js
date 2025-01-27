@@ -1,5 +1,6 @@
 import "./App.css";
 import Dashboard from "./Componets/Dashboard/Dashboard";
+import Footer from "./Componets/Footer/Footer";
 import Navbar from "./Componets/Navbar/Navbar";
 import Paymentpartner from "./Componets/Paymentpartner/Paymentpartner";
 import Reward from "./Componets/Reward/Reward";
@@ -15,6 +16,7 @@ function App() {
       <Paymentpartner/>
       <RummySite/>
       <Winner/>
+      <Footer/>
     </>
   );
 }
