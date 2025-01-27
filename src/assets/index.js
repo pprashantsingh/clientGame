@@ -24,6 +24,12 @@ import mulcard from "./images/image (4).png"
 import res from "./images/image 4.png";
 import vip1 from "./images/image (5).png"
 import Withdrawal from "./images/image (6).png"
+import men1 from "./images/Ellipse 24.png"
+import men2 from "./images/Ellipse 24 (1).png"
+import men3 from "./images/Ellipse 24 (2).png"
+import men4 from "./images/Ellipse 24 (3).png"
+import men5 from "./images/Ellipse 24 (4).png"
+import men6 from "./images/Ellipse 24 (5).png";
 const images={
     logo,
     playicon,
@@ -50,7 +56,14 @@ const images={
     mulcard,
     res,
     vip1,
-    Withdrawal
+    Withdrawal,
+    men1,
+    men2,
+    men3,
+    men4,
+    men5,
+    men6
+    
 }
 
 export default images;
