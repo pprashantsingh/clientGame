@@ -8,7 +8,7 @@ const Winner = () => {
       <div className="winner-heading-section">
         <button className="winner-heading">Winners</button>
       </div>
-<div className="winner_subconatiner">
+    <div className="winner_subconatiner">
       <div className="latest-winners-section">
         <div className="latest-winner">
           <p className="section-title">Latest Winners</p>
@@ -20,6 +20,9 @@ const Winner = () => {
                 <span>Rs.5,00,000</span> in Rummy
               </p>
             </div>
+            {/* <div className="winner_line_style">
+              <hr></hr>
+            </div> */}
           </div>
           <div className="winner-item">
             <img src={images.men2} alt="Diya" />
