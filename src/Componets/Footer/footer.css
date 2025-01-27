@@ -1,0 +1,16 @@
+.footer_container{
+    background:linear-gradient(#170236, #430555) ;
+    min-height: 100px;
+    border: 1px solid red;
+}
+
+._footer_container_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+._footer_container_row_col{
+    flex: 1;
+    border: 1px solid blue;
+    min-height: 100px;
+    min-width: 200px;
+}
