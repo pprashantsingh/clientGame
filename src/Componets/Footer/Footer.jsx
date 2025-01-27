@@ -135,7 +135,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="_footer_container_row_col-partner">
+                    <div className="_footer_container_row_col">
                         <p className="_footer_title_container">
                             Security & Game Integrity
                         </p>
