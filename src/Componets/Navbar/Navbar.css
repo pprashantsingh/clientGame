@@ -38,6 +38,34 @@
   height:14px;
 } */
 
+.navbar_logo {
+  transform: scale(1); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.navbar_logo:hover {
+  transform: scale(1.1);
+}
+
+.nav_Play_icon {
+  transform: scale(1); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.nav_Play_icon:hover {
+  transform: scale(1.1);
+}
+
+.play_now {
+  transform: scale(1); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.play_now:hover {
+  transform: scale(1.1);
+}
+
+
 .play_now p {
   font-family: "Cinzel";
   font-size: 18px;
