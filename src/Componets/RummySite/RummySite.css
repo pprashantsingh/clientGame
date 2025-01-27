@@ -34,6 +34,11 @@
   box-sizing: border-box;
   text-align: left;
   color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.feature_card:hover {
+  transform: scale(1.05);
 }
 
 .feature_image {

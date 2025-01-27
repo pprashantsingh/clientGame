@@ -48,6 +48,11 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .winner-item:hover{
+    transform: scale(1.03);
   }
   
   .winner-item img {
@@ -69,6 +74,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+  }
+
+
+  .jackpot-icon{
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .jackpot-icon:hover{
+    transform: scale(1.05);
   }
   
   .jackpot-text {

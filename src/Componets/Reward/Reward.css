@@ -14,7 +14,13 @@
     text-align: center;
     background: linear-gradient(180deg, #170236 0%, #430555 100%);
     border: 1px solid #FFEA00;
+    transition: transform 0.2s ease-in-out;
   }
+  
+  .reward_card:hover {
+    transform: scale(1.05);
+  }
+  
   
   .reward_image {
     border-radius: 8px;
