@@ -6,6 +6,14 @@
     color: white;
     display: flex;
     flex: 2;
+    transition: transform 0.2s ease-in-out;
+}
+.payment_container:hover{
+    transform: scale(1.01);
+}
+
+.payment_img:hover{
+  transform: scale(1.3);
 }
 
 .payment_subconatiner1{
