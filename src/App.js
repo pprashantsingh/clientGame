@@ -5,6 +5,7 @@ import Navbar from "./Componets/Navbar/Navbar";
 import Paymentpartner from "./Componets/Paymentpartner/Paymentpartner";
 import Reward from "./Componets/Reward/Reward";
 import RummySite from "./Componets/RummySite/RummySite";
+import Testimonials from "./Componets/Testimonials/Testimonials";
 import Winner from "./Componets/Winner/Winner";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Paymentpartner/>
       <RummySite/>
       <Winner/>
+      <Testimonials/>
       <Footer/>
     </>
   );
