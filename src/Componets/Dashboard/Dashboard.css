@@ -1,16 +1,18 @@
 .dashboard_container {
-    margin: 10px 20px;
-    flex: 1;
+    margin: 30px 20px 10px 20px;
+    flex: 1;    
     border-radius: 23px;
     background: linear-gradient(#170236, #430555);
     display: flex;
     gap: 28px;
     flex-wrap: wrap;
+    min-height: 600px;
 }
 
 .dashbord_girlImage{
     flex: 1;
-    border: 1px soild white;
+    min-height: 100%; 
+    object-fit: cover; 
 }
 
 .dashboard_subcontainer{
