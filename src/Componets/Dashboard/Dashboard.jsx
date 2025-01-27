@@ -6,7 +6,7 @@ const Dashboard=()=>{
         <>
         <div className="dashboard_container">
             <div className="dash_img_style">
-                <img src={images.girl} alt="girl" className="dashbord_girlImage"/>
+                <img src={images.queen} alt="girl" className="dashbord_girlImage"/>
             </div>
             <div className="dashboard_subcontainer">
                 <span className="dash_heading">
