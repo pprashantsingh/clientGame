@@ -31,7 +31,47 @@ import men4 from "./images/Ellipse 24 (3).png"
 import men5 from "./images/Ellipse 24 (4).png"
 import men6 from "./images/Ellipse 24 (5).png";
 import pot from "./images/file (12) 1.png"
+import logobg from "./svg/logobg 1.svg"
+import location from "./svg/location.svg";
+import mail from "./svg/mail.svg";
+import appStore from "./svg/Appstore.svg";
+import playstores from "./svg/playstore.svg";
+import spade from "./svg/spade.svg";
+import facebook from "./svg/facebook.svg";
+import insta from "./svg/instagram.svg";
+import twitter from "./svg/twitter.svg";
+import telegram from "./svg/telegram.svg";
+import gambling from "./svg/gambling.svg"
+import fraud from "./svg/fraud.svg"
+import knowUrLimit from "./svg/knowrLimits.svg"
+import eighteen  from "./svg/18+.svg"
+import cross from "./svg/cross.svg"
+import legal from "./svg/legal.svg"
+import twofour from "./svg/247.svg"
+import ring from "./svg/ring.svg"
+import amazonPay from "./svg/amazonpay.svg"
+
+
 const images={
+    amazonPay,
+    ring,
+    gambling,
+    fraud,
+    knowUrLimit,
+    eighteen,
+    cross,
+    legal,
+    twofour,
+    facebook,
+    insta,
+    twitter,
+    telegram,
+    spade,
+    appStore,
+    playstores,
+    location,
+    mail,
+    logobg,
     logo,
     playicon,
     girl,
