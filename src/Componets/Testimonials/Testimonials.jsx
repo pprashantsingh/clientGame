@@ -11,7 +11,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="_testimonials_btn_container">
-         <button className='testimonials_btn'>
+         <button className='testimonials_btn winner-heading'>
           Testimonials
          </button>
       </div>
