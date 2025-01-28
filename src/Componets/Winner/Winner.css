@@ -137,6 +137,11 @@
     border-radius: 5px;
     color: black;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .store-button:hover{
+    transform: scale(1.03);
   }
 
   
