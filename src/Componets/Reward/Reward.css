@@ -59,6 +59,11 @@
   margin-bottom: 10px;
   border-bottom: 1px solid grey;
 }
+.reward_image_king{
+  max-width: 84%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
 
 .reward_list li {
   display: flex;

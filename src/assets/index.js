@@ -55,6 +55,10 @@ import Nisha from "./svg/Nisha.svg";
 import Raj from "./svg/Raj.svg"
 import queen from "./images/quenn.png"
 import coin from "./images/coin.png"
+import cardReward from "./images/cardReward.png";
+import kingchair from "./images/kingchair.png"
+import girlqueen from "./images/Group 5 (1).png"
+
 const images={
     Aditya,
     Nisha,
@@ -112,7 +116,11 @@ const images={
     men6,
     pot,
     queen,
-    coin
+    coin,
+    cardReward,
+    kingchair,
+    girlqueen
+
     
 }
 

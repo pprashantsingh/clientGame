@@ -31,7 +31,7 @@ const Reward = () => {
       </div>
 
       <div className="reward_card">
-        <img src={images.vip} alt="Increased VIP Rewards" className="reward_image" />
+        <img src={images.cardReward} alt="Increased VIP Rewards" className="reward_image" />
         <div className="reward_title">
           <img src={images.king} alt="Crown Icon" />
           <p>
@@ -55,7 +55,7 @@ const Reward = () => {
       </div>
 
       <div className="reward_card">
-        <img src={images.chair} alt="Real Time Leaderboards" className="reward_image" />
+        <img src={images.kingchair} alt="Real Time Leaderboards" className="reward_image_king" />
         <div className="reward_title">
           <img src={images.cup} alt="Trophy Icon" />
           <p>
