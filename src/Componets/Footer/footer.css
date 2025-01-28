@@ -33,7 +33,7 @@
 }
 ._footer_container_row_col-1 {
   flex: 1.5;
-  padding-left: 10px;
+  padding-left: 30px;
   margin-top: 20px;
 }
 ._footer_container_row_col-partner {
@@ -78,6 +78,7 @@
   margin-top: 15px;
 }
 .availabel_on_title {
+  margin-top: 30px;
   color: white;
   font-size: 14px;
 }
@@ -87,6 +88,18 @@
 }
 ._footer_title_container {
   color: yellow;
+}
+._footer_title_all{
+  color: yellow;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+._footer_title_all span{
+  color: white;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
 }
 ._footer_spade_title {
   font-size: 15px;
@@ -101,7 +114,7 @@
 }
 ._follow_us_on_media_image_container {
   display: flex;
-  gap: 10px;
+  gap: 18px;
 }
 
 ._follow_us_on_media_image_container img {

@@ -163,6 +163,9 @@ const Footer = () => {
                            
 
                         </div>
+                        <p className="_footer_title_all">
+                                @All Rights Reserved - 2021 - 2025 |<span> Rocket Bet</span>
+                            </p>
                         </div>
                     </div>
                 </div>
