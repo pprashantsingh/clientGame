@@ -54,6 +54,7 @@ import Aditya from "./svg/AdiyaVerma.svg";
 import Nisha from "./svg/Nisha.svg";
 import Raj from "./svg/Raj.svg"
 import queen from "./images/quenn.png"
+import coin from "./images/coin.png"
 const images={
     Aditya,
     Nisha,
@@ -110,7 +111,8 @@ const images={
     men5,
     men6,
     pot,
-    queen
+    queen,
+    coin
     
 }
 

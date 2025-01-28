@@ -6,7 +6,8 @@ const Reward = () => {
   return (
     <div className="reward_container">
       <div className="reward_card">
-        <img src={images.bonus} alt="First Deposit Bonus" className="reward_image" />
+        <img src={images.coin} alt="First Deposit Bonus" className="reward_image" />
+        {/* <hr className="hr"/> */}
         <div className="reward_title">
           <img src={images.gift} alt="Gift Icon" />
           <p>

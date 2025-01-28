@@ -1,12 +1,13 @@
 .dashboard_container {
-  margin: 30px 20px 10px 20px;
+  margin: 30px 30px 10px 30px;
   flex: 1;
   border-radius: 23px;
   background: linear-gradient(#170236, #430555);
   display: flex;
   gap: 28px;
   flex-wrap: wrap;
-  min-height: 600px;
+  min-height: 577px;
+  border: 1px solid yellow;
 }
 
 @keyframes shakeImage {
@@ -200,6 +201,7 @@
 
 @media screen and (max-width: 953px) {
   .dashboard_container {
+    margin: 10px 10px 10px 10px;
     flex: 2;
     border-radius: 23px;
     background: linear-gradient(#170236, #430555);
