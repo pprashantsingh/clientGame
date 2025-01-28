@@ -7,7 +7,23 @@
   gap: 28px;
   flex-wrap: wrap;
   min-height: 577px;
-  border: 1px solid yellow;
+  border: 1px solid rgb(213, 213, 22);
+}
+
+.dash_img_style {
+  flex-shrink: 0; 
+  flex-basis: 50%;
+}
+
+.dashbord_girlImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.dashboard_subcontainer {
+  flex-grow: 1; 
+  margin-top: 80px;
 }
 
 @keyframes shakeImage {
