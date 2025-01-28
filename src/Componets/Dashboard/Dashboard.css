@@ -9,6 +9,28 @@
   min-height: 600px;
 }
 
+@keyframes shakeImage {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.dash_img_style{
+  animation: shakeImage 1.5s ease-in-out infinite;
+}
+
 .dashbord_girlImage {
   flex: 1;
   min-height: 100%;
