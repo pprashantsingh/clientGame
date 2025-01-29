@@ -128,6 +128,25 @@
 ._footer_col_media_to_follow {
   margin-top: 20px;
 }
+._footer_col_media_to_follow1 {
+  margin-top: 20px;
+  display: none;
+}
+
+.showhide_footercontent{
+  display: none;
+}
+.showhide_footercontent1{
+  display: contents;
+}
+
+.showhide_footer_dowloand1{
+  display: contents;
+}
+.showhide_footer_dowloand{
+  display: none;
+}
+
 ._footer_spade_title {
   margin-bottom: 10px;
 }
@@ -149,4 +168,29 @@
 
 ._our_payment_partner_container {
   margin-top: 20px;
+}
+
+
+@media screen and (max-width:460px){
+
+  /* .footer_wrapper_1{
+    display: flex;
+  } */
+  .showhide_footercontent1{
+    display: none;
+  }
+  .showhide_footercontent{
+    display: contents;
+  }
+
+  .showhide_footer_dowloand1{
+    display: none;
+  }
+  .showhide_footer_dowloand{
+    display: contents;
+  }
+
+  /* ._footer_col_media_to_follow1 {
+    margin-top: 20px;
+  } */
 }
