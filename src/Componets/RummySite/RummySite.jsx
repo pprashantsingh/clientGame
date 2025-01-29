@@ -6,7 +6,7 @@ const RummySite = () => {
   return (
     <>
       <div className="rummy_wrapper">
-        <p className="rummy_heading">India’s most trusted Rummy site</p>
+        <p className="rummy_heading">India’s most trusted Betting site</p>
         <div className="rummy_features">
           {/* Feature 1 */}
           <div className="feature_card">
@@ -61,7 +61,7 @@ const RummySite = () => {
             </div>
             <div className="rummy_text">
               <h3>
-                The Great <span>Rummy</span> Experience
+                The Great <span>Betting</span> Experience
               </h3>
               <ul>
                 <li>✔ 8 Crore+ Players - No Waiting Time</li>

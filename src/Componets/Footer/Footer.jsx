@@ -43,7 +43,7 @@ const Footer = () => {
 
                         <div className="_footer_availabel_on">
                             <p className="availabel_on_title">
-                                Available On
+                                Instant Download Here
                             </p>
 
                             <div className="_availabel_on_image_container">

@@ -29,6 +29,8 @@
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+  height: 45px;
+  margin-top: 10px;
   font-family: sans-serif;
   background: linear-gradient(262.86deg, #9337C7 2.79%, #9138C5 14.85%, #763DC2 38.65%, #673EC2 47.79%, #6D3EC2 72.39%, #8031D1 86.44%, #9926DC 100%);
 }
