@@ -1,6 +1,6 @@
 .navbar_wrapper {
   display: flex;
-  padding: 10px 36px;
+  padding: 20px 36px 0px;
   justify-content: space-between;
   background: #000;
 }
