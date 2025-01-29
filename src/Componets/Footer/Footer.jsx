@@ -100,15 +100,15 @@ const Footer = () => {
                 <img src={images?.spade} alt="" />
                 <p className="_footer_spade_title">Privacy Policy</p>
               </div>
-              <div className="_footer_spade_attributes">
+              <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
                 <p className="_footer_spade_title">Terms & Condition</p>
               </div>
-              <div className="_footer_spade_attributes">
+              <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
                 <p className="_footer_spade_title">Cookies</p>
               </div>
-              <div className="_footer_spade_attributes">
+              <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
                 <p className="_footer_spade_title">Refund Policy</p>
               </div>

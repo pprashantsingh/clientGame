@@ -107,8 +107,15 @@
   font-weight: 500;
   color: white;
 }
+
 ._footer_spade_attributes {
   margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+._footer_spade_attributes1 {
+  margin-top: 28px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -202,7 +209,7 @@
     padding-left: 10px;
     min-height: 100px;
     /* min-width: 200px; */
-    margin-top: 20px;
+    margin-top: 4px;
     margin-bottom: 20px;
     margin-right: 0px;
   }
@@ -216,6 +223,25 @@
 
   ._footer_col_media_to_follow {
     margin-top: 8px;
+  }
+
+  ._footer_title_all{
+    color: yellow;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+
+  ._footer_spade_title {
+    margin-bottom: 5px;
+  }
+
+  ._footer_spade_attributes1 {
+    margin-top: 26px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
   }
 
 }
