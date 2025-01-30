@@ -91,6 +91,25 @@
   align-items: center;
   justify-content: center;
   line-height: 3.3;
+  animation: blink 1s infinite;
+}
+.dash-p5 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.3;
+  /* animation: blink 1s infinite; */
+}
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
 }
 
 .dash-p4 {
@@ -102,6 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: blink 1s infinite;
 }
 
 .dash_span {
@@ -195,6 +215,17 @@
   }
 
   .dash-p3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.3;
+  }
+
+  .dash-p5 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;

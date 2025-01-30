@@ -13,7 +13,7 @@ const Dashboard=()=>{
                 <p className="dash-p1"># World No-1</p>
                 <p className="dash-p2">Most Trusted Betting App</p>
                 </span>
-                <p className="dash-p3">Play Any Time - Download Now</p>
+                <p className="dash-p5">Play Any Time - Download Now</p>
                 <span className="dash_btn_style">
                     <button className="dash_style">
                         <img src={images.playstore} alt="playstore" className="dash_playstore"/>
