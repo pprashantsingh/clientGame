@@ -1,5 +1,5 @@
 .dashboard_container {
-  margin: 30px 30px 10px 30px;
+  margin: 20px 30px 5px 30px;
   flex: 1;
   border-radius: 23px;
   background: linear-gradient(#170236, #430555);
@@ -9,6 +9,26 @@
   min-height: 577px;
   border: 1px solid rgb(213, 213, 22);
 }
+
+.dash_typing {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  font-family: Alice;
+}
+
+.cursor {
+  color: white;
+  font-weight: bold;
+  animation: blinkCursor 0.8s infinite;
+}
+
+@keyframes blinkCursor {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .dash_img_style {
   flex-shrink: 0; 
@@ -91,6 +111,25 @@
   align-items: center;
   justify-content: center;
   line-height: 3.3;
+  animation: blink 1s infinite;
+}
+.dash-p5 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.3;
+  /* animation: blink 1s infinite; */
+}
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
 }
 
 .dash-p4 {
@@ -102,6 +141,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: blink 1s infinite;
 }
 
 .dash_span {
@@ -195,6 +235,17 @@
   }
 
   .dash-p3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.3;
+  }
+
+  .dash-p5 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;

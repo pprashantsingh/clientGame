@@ -1,6 +1,6 @@
 .navbar_wrapper {
   display: flex;
-  padding: 10px 36px;
+  padding: 20px 36px 0px;
   justify-content: space-between;
   background: #000;
 }
@@ -24,7 +24,23 @@
   color: #ffd700;
 }
 
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+
 .play_now {
+  /* display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 45px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  background: linear-gradient(262.86deg, #9337C7 2.79%, #9138C5 14.85%, #763DC2 38.65%, #673EC2 47.79%, #6D3EC2 72.39%, #8031D1 86.44%, #9926DC 100%); */
+
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -33,6 +49,7 @@
   margin-top: 10px;
   font-family: sans-serif;
   background: linear-gradient(262.86deg, #9337C7 2.79%, #9138C5 14.85%, #763DC2 38.65%, #673EC2 47.79%, #6D3EC2 72.39%, #8031D1 86.44%, #9926DC 100%);
+  animation: blink 1s infinite;
 }
 
 /* .play_now img {
@@ -48,6 +65,11 @@
 .navbar_logo:hover {
   transform: scale(1.1);
 }
+
+/* .nav_Play_icon {
+  transform: scale(1); 
+  transition: transform 0.3s ease-in-out; 
+} */
 
 .nav_Play_icon {
   transform: scale(1); 
