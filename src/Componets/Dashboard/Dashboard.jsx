@@ -53,7 +53,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard_container">
             <div className="dash_img_style">
-                <img src={images.girlqueen} alt="girl" className="dashbord_girlImage"/>
+                <img src={images.girlqueen} alt="girl" className="dashbord_girlImage" />
             </div>
             <div className="dashboard_subcontainer">
                 <span className="dash_heading">
@@ -67,19 +67,25 @@ const Dashboard = () => {
                         <img src={images.playstore} alt="playstore" className="dash_playstore"/>
                         Google PlayStore
                     </button> */}
-                    <button className="dash_style">
-    <a 
-        href="/app-release.apk" 
-        download="app-release.apk"
-        style={{ textDecoration: 'none',color: 'black' }}
-    >
-        <img src={images.playstore} alt="playstore" className="dash_playstore"/>
+                    {/* <button className="dash_style">
+                        <a
+                            href="/app-release.apk"
+                            download="app-release.apk"
+                            style={{ textDecoration: 'none', color: 'black' }}
+                        >
+                            <img src={images.playstore} alt="playstore" className="dash_playstore" />
+                            Google PlayStore
+                        </a>
+                    </button> */}
+                    <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+    <button className="dash_style">
+        <img src={images.playstore} alt="playstore" className="dash_playstore" />
         Google PlayStore
-    </a>
-</button>
+    </button>
+</a>
 
                     <button className="dash_style">
-                        <img src={images.applestore} alt="applestore" className="dash_applestore"/>
+                        <img src={images.applestore} alt="applestore" className="dash_applestore" />
                         App Store
                     </button>
                 </span>
