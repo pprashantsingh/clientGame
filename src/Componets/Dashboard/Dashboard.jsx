@@ -53,7 +53,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard_container">
             <div className="dash_img_style">
-                <img src={images.girlqueen} alt="girl" className="dashbord_girlImage"/>
+                <img src={images.girlqueen} alt="girl" className="dashbord_girlImage" />
             </div>
             <div className="dashboard_subcontainer">
                 <span className="dash_heading">
@@ -63,12 +63,29 @@ const Dashboard = () => {
                 </span>
                 <p className="dash-p5">Play Any Time - Download Now</p>
                 <span className="dash_btn_style">
-                    <button className="dash_style">
+                    {/* <button className="dash_style">
                         <img src={images.playstore} alt="playstore" className="dash_playstore"/>
                         Google PlayStore
-                    </button>
+                    </button> */}
+                    {/* <button className="dash_style">
+                        <a
+                            href="/app-release.apk"
+                            download="app-release.apk"
+                            style={{ textDecoration: 'none', color: 'black' }}
+                        >
+                            <img src={images.playstore} alt="playstore" className="dash_playstore" />
+                            Google PlayStore
+                        </a>
+                    </button> */}
+                    <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+    <button className="dash_style">
+        <img src={images.playstore} alt="playstore" className="dash_playstore" />
+        Google PlayStore
+    </button>
+</a>
+
                     <button className="dash_style">
-                        <img src={images.applestore} alt="applestore" className="dash_applestore"/>
+                        <img src={images.applestore} alt="applestore" className="dash_applestore" />
                         App Store
                     </button>
                 </span>
