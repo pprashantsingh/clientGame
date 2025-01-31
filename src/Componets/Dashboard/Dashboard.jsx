@@ -57,7 +57,7 @@ const Dashboard = () => {
             </div>
             <div className="dashboard_subcontainer">
                 <span className="dash_heading">
-                    <p className="dash_typing">{typedText}<span className="cursor">|</span></p>
+                    <p className="dash_typing">{typedText}</p>
                     <p className="dash-p2">{typedText1}</p>
                     {/* <p className="dash-p2">Most Trusted Betting App</p> */}
                 </span>
