@@ -46,10 +46,10 @@ const Footer = () => {
               <div className="_footer_availabel_on">
                 <p className="availabel_on_title">Instant Download Here</p>
 
-                <div className="_availabel_on_image_container">
+                {/* <div className="_availabel_on_image_container">
                   {/* <div className="_image_container_1">
                     <img src={images?.playstores} alt="" />
-                  </div> */}
+                  </div> 
                   <div className="_image_container_1">
                     <a
                       href="/app-release.apk"
@@ -70,7 +70,22 @@ const Footer = () => {
                   <div className="_image_container_1">
                     <img src={images?.appStore} alt="" />
                   </div>
-                </div>
+                </div> */}
+
+                <div className="_image_container_1">
+  <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+    <button className="footer_style">
+      <img src={images.playstore} alt="playstore" className="footer_playstore" />
+      Google PlayStore
+    </button>
+  </a>
+
+  <button className="footer_style">
+    <img src={images.applestoreapp} alt="applestore" className="footer_applestore" />
+    App Store
+  </button>
+</div>
+
               </div>
             </div>
           </div>
@@ -212,10 +227,10 @@ const Footer = () => {
                 <div className="_footer_availabel_on">
                   <p className="availabel_on_title">Instant Download Here</p>
 
-                  <div className="_availabel_on_image_container">
+                  {/* <div className="_availabel_on_image_container">
                     {/* <div className="_image_container_1">
                       <img src={images?.playstores} alt="" />
-                    </div> */}
+                    </div> 
                     <div className="_image_container_1">
                       <a
                         href="/app-release.apk"
@@ -236,7 +251,22 @@ const Footer = () => {
                     <div className="_image_container_1">
                       <img src={images?.appStore} alt="" />
                     </div>
-                  </div>
+                  </div> */}
+
+                  <div className="_availabel_on_image_container">
+  <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+    <button className="footer_style">
+      <img src={images.playstore} alt="playstore" className="footer_playstore" />
+      Google PlayStore
+    </button>
+  </a>
+
+  <button className="footer_style">
+    <img src={images.applestoreapp} alt="applestore" className="footer_applestore" />
+    App Store
+  </button>
+</div>
+
                 </div>
               </div>
               <div className="showhide_footercontent">

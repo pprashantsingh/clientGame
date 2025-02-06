@@ -58,6 +58,7 @@ import coin from "./images/coin.png"
 import cardReward from "./images/cardReward.png";
 import kingchair from "./images/kingchair.png"
 import girlqueen from "./images/Group 5 (1).png"
+import applestoreapp from "./images/appstore.png"
 
 const images={
     Aditya,
@@ -119,7 +120,8 @@ const images={
     coin,
     cardReward,
     kingchair,
-    girlqueen
+    girlqueen,
+    applestoreapp
 
     
 }
