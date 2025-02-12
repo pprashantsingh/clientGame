@@ -1,0 +1,64 @@
+.term-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .updated-date {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .policy-section {
+    margin-bottom: 25px;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .policy-section h2 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .policy-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .policy-section ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .policy-section ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
