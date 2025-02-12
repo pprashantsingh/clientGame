@@ -46,14 +46,46 @@ const Footer = () => {
               <div className="_footer_availabel_on">
                 <p className="availabel_on_title">Instant Download Here</p>
 
-                <div className="_availabel_on_image_container">
-                  <div className="_image_container_1">
+                {/* <div className="_availabel_on_image_container">
+                  {/* <div className="_image_container_1">
                     <img src={images?.playstores} alt="" />
+                  </div> 
+                  <div className="_image_container_1">
+                    <a
+                      href="/app-release.apk"
+                      download="app-release.apk"
+                      style={{
+                        display: "inline-block",
+                        textDecoration: "none",
+                      }}
+                    >
+                      <img
+                        src={images?.playstores}
+                        alt="Play Store"
+                        className="your-image-class"
+                      />
+                    </a>
                   </div>
+
                   <div className="_image_container_1">
                     <img src={images?.appStore} alt="" />
                   </div>
-                </div>
+                </div> */}
+
+                <div className="_image_container_1">
+  <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+    <button className="footer_style">
+      <img src={images.playstore} alt="playstore" className="footer_playstore" />
+      Google PlayStore
+    </button>
+  </a>
+
+  <button className="footer_style">
+    <img src={images.applestoreapp} alt="applestore" className="footer_applestore" />
+    App Store
+  </button>
+</div>
+
               </div>
             </div>
           </div>
@@ -88,11 +120,36 @@ const Footer = () => {
                     <img src={images?.insta} alt="" />
                     <img src={images?.twitter} alt="" />
                     <img src={images?.telegram} alt="" /> */}
-                    <img src={images?.facebook} alt="Facebook" onClick={() => window.open("https://www.facebook.com/", "_blank")} style={{ cursor: "pointer" }} />
-<img src={images?.insta} alt="Instagram" onClick={() => window.open("https://www.instagram.com/", "_blank")} style={{ cursor: "pointer" }} />
-<img src={images?.twitter} alt="Twitter" onClick={() => window.open("https://twitter.com/", "_blank")} style={{ cursor: "pointer" }} />
-<img src={images?.telegram} alt="Telegram" onClick={() => window.open("https://t.me/", "_blank")} style={{ cursor: "pointer" }} />
-
+                    <img
+                      src={images?.facebook}
+                      alt="Facebook"
+                      onClick={() =>
+                        window.open("https://www.facebook.com/", "_blank")
+                      }
+                      style={{ cursor: "pointer" }}
+                    />
+                    <img
+                      src={images?.insta}
+                      alt="Instagram"
+                      onClick={() =>
+                        window.open("https://www.instagram.com/", "_blank")
+                      }
+                      style={{ cursor: "pointer" }}
+                    />
+                    <img
+                      src={images?.twitter}
+                      alt="Twitter"
+                      onClick={() =>
+                        window.open("https://twitter.com/", "_blank")
+                      }
+                      style={{ cursor: "pointer" }}
+                    />
+                    <img
+                      src={images?.telegram}
+                      alt="Telegram"
+                      onClick={() => window.open("https://t.me/", "_blank")}
+                      style={{ cursor: "pointer" }}
+                    />
                   </div>
                 </div>
               </div>
@@ -170,14 +227,46 @@ const Footer = () => {
                 <div className="_footer_availabel_on">
                   <p className="availabel_on_title">Instant Download Here</p>
 
-                  <div className="_availabel_on_image_container">
-                    <div className="_image_container_1">
+                  {/* <div className="_availabel_on_image_container">
+                    {/* <div className="_image_container_1">
                       <img src={images?.playstores} alt="" />
+                    </div> 
+                    <div className="_image_container_1">
+                      <a
+                        href="/app-release.apk"
+                        download="app-release.apk"
+                        style={{
+                          textDecoration: "none",
+                          display: "inline-block",
+                        }}
+                      >
+                        <img
+                          src={images?.playstores}
+                          alt="Play Store"
+                          className="your-image-class"
+                        />
+                      </a>
                     </div>
+
                     <div className="_image_container_1">
                       <img src={images?.appStore} alt="" />
                     </div>
-                  </div>
+                  </div> */}
+
+                  <div className="_availabel_on_image_container">
+  <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+    <button className="footer_style">
+      <img src={images.playstore} alt="playstore" className="footer_playstore" />
+      Google PlayStore
+    </button>
+  </a>
+
+  <button className="footer_style">
+    <img src={images.applestoreapp} alt="applestore" className="footer_applestore" />
+    App Store
+  </button>
+</div>
+
                 </div>
               </div>
               <div className="showhide_footercontent">
@@ -185,10 +274,40 @@ const Footer = () => {
                   <p className="_footer_spade_title">Follow Us On</p>
 
                   <div className="_follow_us_on_media_image_container">
-                    <img src={images?.facebook} alt="" />
+                    {/* <img src={images?.facebook} alt="" />
                     <img src={images?.insta} alt="" />
                     <img src={images?.twitter} alt="" />
-                    <img src={images?.telegram} alt="" />
+                    <img src={images?.telegram} alt="" /> */}
+                    <img
+                      src={images?.facebook}
+                      alt="Facebook"
+                      onClick={() =>
+                        window.open("https://www.facebook.com/", "_blank")
+                      }
+                      style={{ cursor: "pointer" }}
+                    />
+                    <img
+                      src={images?.insta}
+                      alt="Instagram"
+                      onClick={() =>
+                        window.open("https://www.instagram.com/", "_blank")
+                      }
+                      style={{ cursor: "pointer" }}
+                    />
+                    <img
+                      src={images?.twitter}
+                      alt="Twitter"
+                      onClick={() =>
+                        window.open("https://twitter.com/", "_blank")
+                      }
+                      style={{ cursor: "pointer" }}
+                    />
+                    <img
+                      src={images?.telegram}
+                      alt="Telegram"
+                      onClick={() => window.open("https://t.me/", "_blank")}
+                      style={{ cursor: "pointer" }}
+                    />
                   </div>
                 </div>
               </div>

@@ -13,10 +13,14 @@ const Navbar = () => {
             Rocket<span>BET</span>
         </p>
       </div>
+      <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
       <div className="play_now">
+      
         <img src={images.playnewicon} alt="play_icon" className="nav_Play_icon"/>
         <p>Play Now</p>
+        
       </div>
+      </a>
     </div>
   );
 };

@@ -12,12 +12,14 @@
 }
 
 ._image_container_1 {
-  transition: transform 0.2s ease-in-out;
+  display: flex;
+      gap: 10px;
+      margin-top: 10px;
 }
 
-._image_container_1:hover {
+/* ._image_container_1:hover {
   transform: scale(1.06);
-}
+} */
 
 ._footer_container_row {
   display: flex;
@@ -86,7 +88,30 @@
 ._availabel_on_image_container {
   display: flex;
   gap: 10px;
+  margin-top: 10px;
 }
+
+.footer_style {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.footer_style:hover{
+  transform: scale(1.05);
+}
+
+.footer_playstore, .footer_applestore {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
 ._footer_title_container {
   color: yellow;
 }
@@ -234,7 +259,7 @@
   }
 
   ._footer_spade_title {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   ._footer_spade_attributes1 {
