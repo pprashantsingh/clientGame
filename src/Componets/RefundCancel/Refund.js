@@ -1,7 +1,7 @@
 import React from "react";
 import "./Refund.css";
 
-const Refund = () => {
+const Refund = ({setTermsModal}) => {
   return (
     <div className="refund-container">
       <h1 className="title">Refund & Cancellation Policy</h1>
@@ -60,6 +60,23 @@ const Refund = () => {
         <p>Thanks & Regards,</p>
         <p><strong>ROCKETPE</strong></p>
       </footer>
+
+      <div style={{ display: "flex",
+            justifyContent: "flex-end",}}>
+        <button
+          style={{
+           border:"none",
+           cursor:"pointer",
+            padding: "10px 20px",
+            backgroundColor: "red",
+            color: "white",
+            borderRadius: "5px",
+          }}
+          onClick={() => setTermsModal(false)}
+        >
+          Close
+        </button>
+      </div>
     </div>
   );
 };

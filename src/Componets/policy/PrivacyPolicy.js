@@ -1,7 +1,7 @@
 import React from "react";
 import "./PrivacyPolicy.css";
 
-const PrivacyPolicy = () => {
+const PrivacyPolicy = ({setTermsModal}) => {
   return (
     <div className="privacy-container">
       <h1>Privacy Policy</h1>
@@ -51,6 +51,22 @@ const PrivacyPolicy = () => {
 
       <p>Thanks & Regards,</p>
       <p><strong>ROCKETPE</strong></p>
+      <div style={{ display: "flex",
+            justifyContent: "flex-end",}}>
+        <button
+          style={{
+           border:"none",
+           cursor:"pointer",
+            padding: "10px 20px",
+            backgroundColor: "red",
+            color: "white",
+            borderRadius: "5px",
+          }}
+          onClick={() => setTermsModal(false)}
+        >
+          Close
+        </button>
+      </div>
     </div>
   );
 };

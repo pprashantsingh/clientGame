@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cookie.css";
 
-const Cookie = () => {
+const Cookie = ({setTermsModal}) => {
   return (
     <>
       <div className="cookies-container">
@@ -83,6 +83,22 @@ const Cookie = () => {
         <p className="thanks">
           Thanks & Regards, <br /> ROCKETPE
         </p>
+      </div>
+      <div style={{ display: "flex",
+            justifyContent: "flex-end",}}>
+        <button
+          style={{
+           border:"none",
+           cursor:"pointer",
+            padding: "10px 20px",
+            backgroundColor: "red",
+            color: "white",
+            borderRadius: "5px",
+          }}
+          onClick={() => setTermsModal(false)}
+        >
+          Close
+        </button>
       </div>
     </>
   );

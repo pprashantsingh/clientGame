@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./footer.css";
 import images from "../../assets";
+import Modal from "react-modal";
+import Term from "../term/Term";
+import PrivacyPolicy from "../policy/PrivacyPolicy";
+import Cookie from "../cookies/Cookie";
+import Refund from "../RefundCancel/Refund";
 const Footer = () => {
+  const [termsModal, setTermsModal] = useState(false);
+  const [footerSubjects, setFooterSubjects] = useState(-1);
   return (
     <>
+      <Modal isOpen={termsModal} contentLabel="Example Modal">
+        {footerSubjects === 1 && <PrivacyPolicy setTermsModal={setTermsModal} />}
+
+        {footerSubjects === 2 && <Term setTermsModal={setTermsModal} />}
+
+        {footerSubjects === 3 && <Cookie setTermsModal={setTermsModal} />}
+
+        {footerSubjects === 4 && <Refund setTermsModal={setTermsModal} />}
+      </Modal>
       <div className="footer_container">
         <div className="_footer_container_row">
           <div className="_footer_container_row_col-1">
@@ -73,19 +89,30 @@ const Footer = () => {
                 </div> */}
 
                 <div className="_image_container_1">
-  <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
-    <button className="footer_style">
-      <img src={images.playstore} alt="playstore" className="footer_playstore" />
-      Google PlayStore
-    </button>
-  </a>
+                  <a
+                    href="/app-release.apk"
+                    download="app-release.apk"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <button className="footer_style">
+                      <img
+                        src={images.playstore}
+                        alt="playstore"
+                        className="footer_playstore"
+                      />
+                      Google PlayStore
+                    </button>
+                  </a>
 
-  <button className="footer_style">
-    <img src={images.applestoreapp} alt="applestore" className="footer_applestore" />
-    App Store
-  </button>
-</div>
-
+                  <button className="footer_style">
+                    <img
+                      src={images.applestoreapp}
+                      alt="applestore"
+                      className="footer_applestore"
+                    />
+                    App Store
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -156,23 +183,52 @@ const Footer = () => {
             </div>
 
             <div className="_footer_container_row_col">
-              <p className="_footer_title_container">Know More</p>
+              <p
+                className="_footer_title_container"
+                style={{ cursor: "pointer" }}
+              >
+                Know More
+              </p>
 
               <div className="_footer_spade_attributes">
                 <img src={images?.spade} alt="" />
-                <p className="_footer_spade_title">Privacy Policy</p>
+                <p
+                  className="_footer_spade_title"
+                  style={{ cursor: "pointer" }}
+                  onClick={()=>{setTermsModal(true);setFooterSubjects(1)}}
+                >
+                  Privacy Policy
+                </p>
               </div>
               <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
-                <p className="_footer_spade_title">Terms & Condition</p>
+                <p
+                  className="_footer_spade_title"
+                  onClick={()=>{setTermsModal(true);setFooterSubjects(2)}}
+                  style={{ cursor: "pointer" }}
+                >
+                  Terms & Condition
+                </p>
               </div>
               <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
-                <p className="_footer_spade_title">Cookies</p>
+                <p
+                  className="_footer_spade_title"
+                  style={{ cursor: "pointer" }}
+                  onClick={()=>{setTermsModal(true);setFooterSubjects(3)}}
+                >
+                  Cookies
+                </p>
               </div>
               <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
-                <p className="_footer_spade_title">Refund Policy</p>
+                <p
+                 onClick={()=>{setTermsModal(true);setFooterSubjects(4)}}
+                  className="_footer_spade_title"
+                  style={{ cursor: "pointer" }}
+                >
+                  Refund Policy
+                </p>
               </div>
             </div>
           </div>
@@ -254,19 +310,30 @@ const Footer = () => {
                   </div> */}
 
                   <div className="_availabel_on_image_container">
-  <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
-    <button className="footer_style">
-      <img src={images.playstore} alt="playstore" className="footer_playstore" />
-      Google PlayStore
-    </button>
-  </a>
+                    <a
+                      href="/app-release.apk"
+                      download="app-release.apk"
+                      style={{ textDecoration: "none" }}
+                    >
+                      <button className="footer_style">
+                        <img
+                          src={images.playstore}
+                          alt="playstore"
+                          className="footer_playstore"
+                        />
+                        Google PlayStore
+                      </button>
+                    </a>
 
-  <button className="footer_style">
-    <img src={images.applestoreapp} alt="applestore" className="footer_applestore" />
-    App Store
-  </button>
-</div>
-
+                    <button className="footer_style">
+                      <img
+                        src={images.applestoreapp}
+                        alt="applestore"
+                        className="footer_applestore"
+                      />
+                      App Store
+                    </button>
+                  </div>
                 </div>
               </div>
               <div className="showhide_footercontent">

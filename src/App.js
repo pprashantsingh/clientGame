@@ -23,10 +23,10 @@ function App() {
       <Winner/>
       <Testimonials/>
       <Footer/>
-      <PrivacyPolicy/>
+      {/* <PrivacyPolicy/>
       <Cookie/>
       <Refund/>
-      <Term/>
+      <Term/> */}
     </>
   );
 }
