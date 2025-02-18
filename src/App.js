@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Cookie from "./Componets/cookies/Cookie";
 import Dashboard from "./Componets/Dashboard/Dashboard";
 import Footer from "./Componets/Footer/Footer";
@@ -14,20 +15,22 @@ import Winner from "./Componets/Winner/Winner";
 
 function App() {
   return (
-    <>
+    <Router> {/* ✅ Move Router to wrap everything */}
       <Navbar />
-      <Dashboard/>
-      <Reward/>
-      <Paymentpartner/>
-      <RummySite/>
-      <Winner/>
-      <Testimonials/>
-      <Footer/>
-      {/* <PrivacyPolicy/>
-      <Cookie/>
-      <Refund/>
-      <Term/> */}
-    </>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/reward" element={<Reward />} />
+        <Route path="/paymentpartner" element={<Paymentpartner />} />
+        <Route path="/rummy-site" element={<RummySite />} />
+        <Route path="/winner" element={<Winner />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/cookie-policy" element={<Cookie />} />
+        <Route path="/refund-policy" element={<Refund />} />
+        <Route path="/terms-and-conditions" element={<Term />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 

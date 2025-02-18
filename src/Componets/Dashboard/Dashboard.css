@@ -24,14 +24,19 @@
 }
 
 @keyframes blinkCursor {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-
 .dash_img_style {
-  flex-shrink: 0; 
+  flex-shrink: 0;
   flex-basis: 50%;
 }
 
@@ -42,7 +47,7 @@
 }
 
 .dashboard_subcontainer {
-  flex-grow: 1; 
+  flex-grow: 1;
   margin-top: 80px;
 }
 
@@ -64,7 +69,7 @@
   }
 }
 
-.dash_img_style{
+.dash_img_style {
   animation: shakeImage 1.5s ease-in-out infinite;
 }
 
@@ -125,11 +130,16 @@
   /* animation: blink 1s infinite; */
 }
 
-
 @keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0.5; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .dash-p4 {
@@ -256,6 +266,10 @@
     line-height: 2.3;
   }
 
+  .dash-p2 {
+    font-size: 24px;
+  }
+
   .dash-p4 {
     font-family: Roboto;
     font-weight: 500;
@@ -265,6 +279,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .dash_typing {
+    font-size: 35px;
   }
 }
 
@@ -297,4 +315,13 @@
     margin-top: 20px;
     margin-bottom: 30px;
   }
+
+  .dash-p2 {
+    font-size: 24px;
+  }
+
+  .dash_typing {
+    font-size: 35px;
+  }
+
 }

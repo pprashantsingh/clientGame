@@ -6,12 +6,14 @@ import Term from "../term/Term";
 import PrivacyPolicy from "../policy/PrivacyPolicy";
 import Cookie from "../cookies/Cookie";
 import Refund from "../RefundCancel/Refund";
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
-  const [termsModal, setTermsModal] = useState(false);
+  // const [termsModal, setTermsModal] = useState(false);
   const [footerSubjects, setFooterSubjects] = useState(-1);
+  const navigate = useNavigate();
   return (
     <>
-      <Modal isOpen={termsModal} contentLabel="Example Modal">
+      {/* <Modal isOpen={termsModal} contentLabel="Example Modal">
         {footerSubjects === 1 && <PrivacyPolicy setTermsModal={setTermsModal} />}
 
         {footerSubjects === 2 && <Term setTermsModal={setTermsModal} />}
@@ -19,7 +21,7 @@ const Footer = () => {
         {footerSubjects === 3 && <Cookie setTermsModal={setTermsModal} />}
 
         {footerSubjects === 4 && <Refund setTermsModal={setTermsModal} />}
-      </Modal>
+      </Modal> */}
       <div className="footer_container">
         <div className="_footer_container_row">
           <div className="_footer_container_row_col-1">
@@ -195,7 +197,8 @@ const Footer = () => {
                 <p
                   className="_footer_spade_title"
                   style={{ cursor: "pointer" }}
-                  onClick={()=>{setTermsModal(true);setFooterSubjects(1)}}
+                  // onClick={()=>{setTermsModal(true);setFooterSubjects(1)}}
+                  onClick={() => navigate("/privacy-policy")}
                 >
                   Privacy Policy
                 </p>
@@ -204,7 +207,8 @@ const Footer = () => {
                 <img src={images?.spade} alt="" />
                 <p
                   className="_footer_spade_title"
-                  onClick={()=>{setTermsModal(true);setFooterSubjects(2)}}
+                  // onClick={()=>{setTermsModal(true);setFooterSubjects(2)}}
+                  onClick={() => navigate("/terms-and-conditions")}
                   style={{ cursor: "pointer" }}
                 >
                   Terms & Condition
@@ -215,7 +219,8 @@ const Footer = () => {
                 <p
                   className="_footer_spade_title"
                   style={{ cursor: "pointer" }}
-                  onClick={()=>{setTermsModal(true);setFooterSubjects(3)}}
+                  // onClick={()=>{setTermsModal(true);setFooterSubjects(3)}}
+                  onClick={() => navigate("/cookie-policy")}
                 >
                   Cookies
                 </p>
@@ -223,7 +228,8 @@ const Footer = () => {
               <div className="_footer_spade_attributes1">
                 <img src={images?.spade} alt="" />
                 <p
-                 onClick={()=>{setTermsModal(true);setFooterSubjects(4)}}
+                  //  onClick={()=>{setTermsModal(true);setFooterSubjects(4)}}
+                  onClick={() => navigate("/refund-policy")}
                   className="_footer_spade_title"
                   style={{ cursor: "pointer" }}
                 >

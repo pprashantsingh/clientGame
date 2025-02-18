@@ -83,8 +83,7 @@ const Cookie = ({setTermsModal}) => {
         <p className="thanks">
           Thanks & Regards, <br /> ROCKETPE
         </p>
-      </div>
-      <div style={{ display: "flex",
+        <div style={{ display: "flex",
             justifyContent: "flex-end",}}>
         <button
           style={{
@@ -100,6 +99,8 @@ const Cookie = ({setTermsModal}) => {
           Close
         </button>
       </div>
+      </div>
+
     </>
   );
 };
