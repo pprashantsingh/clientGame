@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./PrivacyPolicy.css";
 
-const PrivacyPolicy = ({setTermsModal}) => {
+const PrivacyPolicy = ({ setTermsModal }) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div className="privacy-container">
       <h1>Privacy Policy</h1>
@@ -14,7 +19,7 @@ const PrivacyPolicy = ({setTermsModal}) => {
 
       <h2>Information We Collect</h2>
       <p>
-        ROCKETPE collects various types of information, including personal data, usage details, 
+        ROCKETPE collects various types of information, including personal data, usage details,
         and browsing activities. This may include:
       </p>
       <ul>
@@ -25,20 +30,20 @@ const PrivacyPolicy = ({setTermsModal}) => {
 
       <h2>How We Use Your Information</h2>
       <p>
-        We use your data to improve our services, personalize your experience, and ensure security. 
+        We use your data to improve our services, personalize your experience, and ensure security.
         Your information may also be used for customer support, communication, and legal compliance.
       </p>
 
       <h2>Data Sharing & Storage</h2>
       <p>
-        ROCKETPE may store and process your data on secure servers in India and abroad. Third-party 
-        service providers may have access to necessary data for processing payments and fulfilling 
+        ROCKETPE may store and process your data on secure servers in India and abroad. Third-party
+        service providers may have access to necessary data for processing payments and fulfilling
         services.
       </p>
 
       <h2>Security Measures</h2>
       <p>
-        We implement industry-standard security measures to protect your data. However, 
+        We implement industry-standard security measures to protect your data. However,
         no online system is completely secure, and we encourage responsible data sharing.
       </p>
 
@@ -51,12 +56,14 @@ const PrivacyPolicy = ({setTermsModal}) => {
 
       <p>Thanks & Regards,</p>
       <p><strong>ROCKETPE</strong></p>
-      <div style={{ display: "flex",
-            justifyContent: "flex-end",}}>
+      <div style={{
+        display: "flex",
+        justifyContent: "flex-end",
+      }}>
         <button
           style={{
-           border:"none",
-           cursor:"pointer",
+            border: "none",
+            cursor: "pointer",
             padding: "10px 20px",
             backgroundColor: "red",
             color: "white",

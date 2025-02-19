@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Refund.css";
 
 const Refund = ({setTermsModal}) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div className="refund-container">
       <h1 className="title">Refund & Cancellation Policy</h1>

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Term.css";
 
 const Term = ({ setTermsModal }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div className="term-container">
       <h1 className="title">Terms & Conditions Policy</h1>

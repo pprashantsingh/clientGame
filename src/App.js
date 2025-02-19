@@ -1,29 +1,25 @@
 import React from "react";
 import "./App.css"
-import Footer from "./Componets/Footer/Footer";
-import Navbar from "./Componets/Navbar/Navbar";
-import Dashboard from "./Componets/Dashboard/Dashboard";
-import Reward from "./Componets/Reward/Reward";
-import Paymentpartner from "./Componets/Paymentpartner/Paymentpartner";
-import RummySite from "./Componets/RummySite/RummySite";
-import Testimonials from "./Componets/Testimonials/Testimonials";
-import Winner from "./Componets/Winner/Winner";
 import RouterLink from "./Componets/RouterLink";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes, } from "react-router-dom";
+import Home from "./Componets/Home/Home";
+import PrivacyPolicy from "./Componets/policy/PrivacyPolicy";
+import Cookie from "./Componets/cookies/Cookie";
+import Refund from "./Componets/RefundCancel/Refund";
+import Term from "./Componets/term/Term";
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Navbar />
-      <Dashboard />
-      <Reward />
-      <Paymentpartner />
-      <RummySite />
-      <Winner />
-      <Testimonials />
-      <Footer />
-      <RouterLink />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/cookie-policy" element={<Cookie />} />
+          <Route path="/refund-policy" element={<Refund />} />
+          <Route path="/terms-and-conditions" element={<Term />} />
+
+        </Routes>
       </BrowserRouter>
     </>
   );

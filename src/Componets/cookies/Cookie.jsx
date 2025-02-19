@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Cookie.css";
 
 const Cookie = ({setTermsModal}) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <>
       <div className="cookies-container">
