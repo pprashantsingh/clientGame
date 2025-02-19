@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import "./footer.css";
 import images from "../../assets";
-import Modal from "react-modal";
-import Term from "../term/Term";
-import PrivacyPolicy from "../policy/PrivacyPolicy";
-import Cookie from "../cookies/Cookie";
-import Refund from "../RefundCancel/Refund";
+// import Modal from "react-modal";
+// import Term from "../term/Term";
+// import PrivacyPolicy from "../policy/PrivacyPolicy";
+// import Cookie from "../cookies/Cookie";
+// import Refund from "../RefundCancel/Refund";
 import { useNavigate } from "react-router-dom";
 const Footer = () => {
   // const [termsModal, setTermsModal] = useState(false);
-  const [footerSubjects, setFooterSubjects] = useState(-1);
+  // const [footerSubjects, setFooterSubjects] = useState(-1);
   const navigate = useNavigate();
   return (
     <>
