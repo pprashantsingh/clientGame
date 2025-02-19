@@ -123,7 +123,7 @@ const Term = ({ setTermsModal }) => {
       </footer>
       <div style={{ display: "flex",
             justifyContent: "flex-end",}}>
-        <button
+        {/* <button
           style={{
            border:"none",
            cursor:"pointer",
@@ -135,7 +135,7 @@ const Term = ({ setTermsModal }) => {
           onClick={() => setTermsModal(false)}
         >
           Close
-        </button>
+        </button> */}
       </div>
     </div>
   );

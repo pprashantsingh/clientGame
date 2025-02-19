@@ -66,7 +66,7 @@ const Refund = ({setTermsModal}) => {
 
       <div style={{ display: "flex",
             justifyContent: "flex-end",}}>
-        <button
+        {/* <button
           style={{
            border:"none",
            cursor:"pointer",
@@ -78,7 +78,7 @@ const Refund = ({setTermsModal}) => {
           onClick={() => setTermsModal(false)}
         >
           Close
-        </button>
+        </button> */}
       </div>
     </div>
   );
