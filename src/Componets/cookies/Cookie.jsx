@@ -13,7 +13,7 @@ const Cookie = ({setTermsModal}) => {
 
         <section>
           <p>
-            ROCKETPE, and third parties with whom we partner, may use cookies,
+            ROCKETBET, and third parties with whom we partner, may use cookies,
             tags, web beacons, mobile device IDs, "flash cookies," and similar
             technologies to collect and store information in respect to your use
             of the Services and third-party websites.
@@ -26,7 +26,7 @@ const Cookie = ({setTermsModal}) => {
           </p>
           <p>
             Pixel tags (also called web beacons) are tiny graphics used to track
-            activities on a webpage, emails, or ads. ROCKETPE may use these to
+            activities on a webpage, emails, or ads. ROCKETBET may use these to
             measure the popularity of features and improve user experience.
           </p>
         </section>
@@ -84,7 +84,7 @@ const Cookie = ({setTermsModal}) => {
         </p>
 
         <p className="thanks">
-          Thanks & Regards, <br /> ROCKETPE
+          Thanks & Regards, <br /> ROCKETBET
         </p>
         <div style={{ display: "flex",
             justifyContent: "flex-end",}}>

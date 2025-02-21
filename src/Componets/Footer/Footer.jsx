@@ -92,6 +92,11 @@ const Footer = () => {
                     </button>
                   </a>
 
+                  <a
+                      href="/app-release.apk"
+                      download="app-release.apk"
+                      style={{ textDecoration: "none" }}
+                    >
                   <button className="footer_style">
                     <img
                       src={images.applestoreapp}
@@ -100,6 +105,7 @@ const Footer = () => {
                     />
                     App Store
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -317,6 +323,11 @@ const Footer = () => {
                       </button>
                     </a>
 
+                    <a
+                      href="/app-release.apk"
+                      download="app-release.apk"
+                      style={{ textDecoration: "none" }}
+                    >
                     <button className="footer_style">
                       <img
                         src={images.applestoreapp}
@@ -325,6 +336,7 @@ const Footer = () => {
                       />
                       App Store
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>

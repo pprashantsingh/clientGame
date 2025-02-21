@@ -11,15 +11,15 @@ const PrivacyPolicy = ({ setTermsModal }) => {
       <h1>Privacy Policy</h1>
       <p>Last updated on, 01/Nov/2024.</p>
       <p>
-        ROCKETPE (Formerly known as ROCKETPE, a sister concern Company for
-        BLAKROCK NANOTECH) ("ROCKETPE," the "Company," "we," "us," and "our")
+        ROCKETBET (Formerly known as ROCKETBET, a sister concern Company for
+        BLAKROCK NANOTECH) ("ROCKETBET," the "Company," "we," "us," and "our")
         respects your privacy and is committed to protecting it through its
         compliance with its privacy policies.
       </p>
 
       <h2>Information We Collect</h2>
       <p>
-        ROCKETPE collects various types of information, including personal data,
+        ROCKETBET collects various types of information, including personal data,
         usage details, and browsing activities. This may include:
       </p>
       <ul>
@@ -37,7 +37,7 @@ const PrivacyPolicy = ({ setTermsModal }) => {
 
       <h2>Data Sharing & Storage</h2>
       <p>
-        ROCKETPE may store and process your data on secure servers in India and
+        ROCKETBET may store and process your data on secure servers in India and
         abroad. Third-party service providers may have access to necessary data
         for processing payments and fulfilling services.
       </p>
@@ -55,13 +55,13 @@ const PrivacyPolicy = ({ setTermsModal }) => {
         issues, please contact us at:
       </p>
       <p>
-        Email: <a href="mailto:therocketpe@gmail.com">therocketpe@gmail.com</a>
+        Email: <a href="mailto:therocketbet@gmail.com">therocketbet@gmail.com</a>
       </p>
       <p>Address: Street 23/21, Block-B, Patel Nagar-ND-08</p>
 
       <p>Thanks & Regards,</p>
       <p>
-        <strong>ROCKETPE</strong>
+        <strong>ROCKETBET</strong>
       </p>
       <div
         style={{

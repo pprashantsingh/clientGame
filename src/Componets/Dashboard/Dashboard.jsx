@@ -83,11 +83,12 @@ const Dashboard = () => {
         Google PlayStore
     </button>
 </a>
-
+<a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
                     <button className="dash_style">
                         <img src={images.applestore} alt="applestore" className="dash_applestore" />
                         App Store
                     </button>
+                    </a>
                 </span>
                 <p className="dash-p3"><span className="dash_span">100%&nbsp; </span>Winning Guaranteed</p>
                 <p className="dash-p4">“No Loss Here - 100% Sure Profit”</p>

@@ -19,7 +19,7 @@ const Term = ({ setTermsModal }) => {
         </p>
         <p>
           Please read the following terms and conditions carefully before
-          browsing, registering, accessing, or using the ROCKETPE mobile
+          browsing, registering, accessing, or using the ROCKETBET mobile
           application. By accessing or registering on the application, you agree
           to these terms. If you do not agree, you must stop using the
           application.
@@ -30,7 +30,7 @@ const Term = ({ setTermsModal }) => {
         <h2>General Terms and Definitions</h2>
         <p>
           The following rules define how orders are accepted, winnings are paid,
-          and disputes are resolved in ROCKETPE.
+          and disputes are resolved in ROCKETBET.
         </p>
         <ul>
           <li>
@@ -75,7 +75,7 @@ const Term = ({ setTermsModal }) => {
         </p>
         <ul>
           <li>
-            The ROCKETPE Security Service can decline withdrawals under specific
+            The ROCKETBET Security Service can decline withdrawals under specific
             conditions.
           </li>
           <li>
@@ -92,7 +92,7 @@ const Term = ({ setTermsModal }) => {
       <section className="policy-section">
         <h2>Your Registration and Account Obligations</h2>
         <p>
-          Users must set up an account with ROCKETPE and provide accurate
+          Users must set up an account with ROCKETBET and provide accurate
           personal information. Any false or misleading information may result
           in account suspension.
         </p>
@@ -101,7 +101,7 @@ const Term = ({ setTermsModal }) => {
       <section className="policy-section">
         <h2>Entire Agreement</h2>
         <p>
-          This agreement represents the complete terms between ROCKETPE and
+          This agreement represents the complete terms between ROCKETBET and
           users, and modifications will only be made in writing.
         </p>
       </section>
@@ -110,7 +110,7 @@ const Term = ({ setTermsModal }) => {
         <h2>Contact Information</h2>
         <p>
           For queries regarding payments, refunds, or technical issues, contact
-          us at <strong>therocketpe@gmail.com</strong> or visit our office at{" "}
+          us at <strong>therocketbet@gmail.com</strong> or visit our office at{" "}
           <strong>Street 23/21, Block-B, Patel Nagar-ND-08</strong>.
         </p>
       </section>
@@ -118,7 +118,7 @@ const Term = ({ setTermsModal }) => {
       <footer className="footer">
         <p>Thanks & Regards,</p>
         <p>
-          <strong>ROCKETPE</strong>
+          <strong>ROCKETBET</strong>
         </p>
       </footer>
       <div style={{ display: "flex",
