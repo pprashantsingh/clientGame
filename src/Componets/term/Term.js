@@ -110,7 +110,9 @@ const Term = ({ setTermsModal }) => {
         <h2>Contact Information</h2>
         <p>
           For queries regarding payments, refunds, or technical issues, contact
-          us at <strong>therocketbet@gmail.com</strong> or visit our office at{" "}
+          us at <strong>therocketbet@gmail.com </strong>
+           or <strong>support@rocketbet.in </strong>
+           or visit our office at{" "}
           <strong>Street 23/21, Block-B, Patel Nagar-ND-08</strong>.
         </p>
       </section>
