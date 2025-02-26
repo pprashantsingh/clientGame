@@ -33,6 +33,14 @@ const Footer = () => {
                   <p className="_mail_title">therocketbet@gmail.com</p>
                 </div>
               </div>
+              <div className="_footer_mail_container">
+                <div className="_mail_image_container">
+                  <img src={images?.mail} alt="" />
+                </div>
+                <div className="_mail_title_container">
+                  <p className="_mail_title">support@rocketbet.in</p>
+                </div>
+              </div>
 
               <div className="_footer_location_container">
                 <div className="_mail_image_container">
@@ -92,6 +100,11 @@ const Footer = () => {
                     </button>
                   </a>
 
+                  <a
+                      href="/app-release.apk"
+                      download="app-release.apk"
+                      style={{ textDecoration: "none" }}
+                    >
                   <button className="footer_style">
                     <img
                       src={images.applestoreapp}
@@ -100,6 +113,7 @@ const Footer = () => {
                     />
                     App Store
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -258,6 +272,14 @@ const Footer = () => {
                     <p className="_mail_title">therocketbet@gmail.com</p>
                   </div>
                 </div>
+                <div className="_footer_mail_container">
+                  <div className="_mail_image_container">
+                    <img src={images?.mail} alt="" />
+                  </div>
+                  <div className="_mail_title_container">
+                    <p className="_mail_title">support@rocketbet.in</p>
+                  </div>
+                </div>
 
                 <div className="_footer_location_container">
                   <div className="_mail_image_container">
@@ -317,6 +339,11 @@ const Footer = () => {
                       </button>
                     </a>
 
+                    <a
+                      href="/app-release.apk"
+                      download="app-release.apk"
+                      style={{ textDecoration: "none" }}
+                    >
                     <button className="footer_style">
                       <img
                         src={images.applestoreapp}
@@ -325,6 +352,7 @@ const Footer = () => {
                       />
                       App Store
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>

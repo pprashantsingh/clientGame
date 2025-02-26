@@ -50,14 +50,18 @@ const Winner = () => {
         <p className="jackpot-text">Total Jackpot</p>
         <p className="jackpot-amount">Rs.25,30,22,488</p>
         <div className="store-buttons">
+        <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
           <button className="store-button">
             <img src={images.playstore} alt="Google Play Store" />
             Google PlayStore
           </button>
-          <button className="store-button">
+          </a>
+          <a href="/app-release.apk" download="app-release.apk" style={{ textDecoration: 'none' }}>
+          <button className="store-button newbtn">
             <img src={images.applestore} alt="App Store" />
             App Store
           </button>
+          </a>
         </div>
       </div>
 

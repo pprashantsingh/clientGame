@@ -143,6 +143,10 @@
   height: 20px;
 }
 
+.newbtn{
+  padding: 10px 39px;
+}
+
 .store-button:hover {
   transform: scale(1.03);
 }
@@ -163,6 +167,9 @@
 
   .store-buttons {
     justify-content: center;
+  }
+  .newbtn{
+    padding: 10px 39px;
   }
 }
 
@@ -192,6 +199,10 @@
     font-size: 14px;
     padding: 8px 16px;
   }
+
+  .newbtn{
+    padding: 10px 39px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -218,5 +229,8 @@
 
   .store-button {
     justify-content: center;
+  }
+  .newbtn{
+    padding: 10px 39px;
   }
 }

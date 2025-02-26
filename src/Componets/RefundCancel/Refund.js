@@ -13,7 +13,7 @@ const Refund = ({setTermsModal}) => {
       <section className="policy-section">
         <h2>Refund and Cancellation</h2>
         <p>
-          Please read the following terms and conditions carefully before using the ROCKETPE mobile application. By accessing, registering, or using the application, you agree to be bound by these terms.
+          Please read the following terms and conditions carefully before using the ROCKETBET mobile application. By accessing, registering, or using the application, you agree to be bound by these terms.
         </p>
         <p className="important-note">
           <strong>IMPORTANT NOTE:</strong> We refund your money within 30 GLOBAL BUSINESS DAYS if a contest is canceled due to a match being called off or the contest not gathering enough contestants.
@@ -24,17 +24,17 @@ const Refund = ({setTermsModal}) => {
       <section className="policy-section">
         <h2>Fees and Payments</h2>
         <p>
-          ROCKETPE may require payment for some services. At present, users are not charged for accessing the ROCKETPE platform.
+          ROCKETBET may require payment for some services. At present, users are not charged for accessing the ROCKETBET platform.
         </p>
       </section>
 
       <section className="policy-section">
         <h2>Funding Accounts</h2>
         <p>
-          Users can deposit funds into their ROCKETPE Wallet, categorized as “Deposit KASH.” Funds deposited by users must be utilized before any credited Deposit KASH by ROCKETPE.
+          Users can deposit funds into their ROCKETBET Wallet, categorized as “Deposit KASH.” Funds deposited by users must be utilized before any credited Deposit KASH by ROCKETBET.
         </p>
         <p className="note">
-          <strong>Note:</strong> Deposit KASH credited by ROCKETPE expires after two weeks.
+          <strong>Note:</strong> Deposit KASH credited by ROCKETBET expires after two weeks.
         </p>
       </section>
 
@@ -61,12 +61,12 @@ const Refund = ({setTermsModal}) => {
 
       <footer className="footer">
         <p>Thanks & Regards,</p>
-        <p><strong>ROCKETPE</strong></p>
+        <p><strong>ROCKETBET</strong></p>
       </footer>
 
       <div style={{ display: "flex",
             justifyContent: "flex-end",}}>
-        <button
+        {/* <button
           style={{
            border:"none",
            cursor:"pointer",
@@ -78,7 +78,7 @@ const Refund = ({setTermsModal}) => {
           onClick={() => setTermsModal(false)}
         >
           Close
-        </button>
+        </button> */}
       </div>
     </div>
   );

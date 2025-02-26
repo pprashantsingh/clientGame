@@ -73,6 +73,8 @@
   line-height: 1.3;
 }
 
+
+
 @media (max-width: 768px) {
   .rummy_features {
     grid-template-columns: 1fr;
@@ -99,4 +101,15 @@
   .feature_image {
     margin-bottom: 10px;
   }
+}
+
+
+@media(max-width: 360px){
+  .rummy_text h3 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: Poppins;
+}
+
 }
