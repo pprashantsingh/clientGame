@@ -120,9 +120,10 @@ const PrivacyPolicy = ({ setTermsModal }) => {
        Support Email: <a href="mailto:support@rocketbet.in">support@rocketbet.in</a>
       </p>
       <p>Address: Street 23/21, Block-B, Patel Nagar-ND-08</p>
-  <p><strong>ROCKETBET
+      <p className="rocket-policy">Thanks & Regards</p>
+  <p className="rocket-policy"><strong>ROCKETBET
 </strong></p>
-  <p>Thanks & Regards</p>
+
 
 </div>
 
