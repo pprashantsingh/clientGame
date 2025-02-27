@@ -23,7 +23,7 @@ const Term = ({ setTermsModal }) => {
         <p>
           Please read the following terms and conditions carefully before
           browsing, registering, accessing, or using the mobile application
-          “ROCKETPE”. By accessing, registering on or using the Merchant
+          “ROCKETBET”. By accessing, registering on or using the Merchant
           dashboard and/or the Application, you agree to be bound by the terms
           and conditions set forth below including any additional guidelines and
           future modifications thereto. If, at any point of time, you do not
@@ -182,7 +182,7 @@ const Term = ({ setTermsModal }) => {
         <h2>Your Registration and Account Obligations</h2>
         <p>
           You need to set up an account with Us through a ROCKETBET
-          representative (“ROCKETPE Account“) and provide certain information
+          representative (“ROCKETBET Account“) and provide certain information
           about yourself as prompted by the information form, including, your
           name, gender/type of entity, email address, account password, mobile
           phone number and billing/shipping address. All of your registration
@@ -220,7 +220,7 @@ const Term = ({ setTermsModal }) => {
           If you have any queries relating to the processing/ usage of
           information/Payments/Refunds/ Technical Issues…Etc. provided by you or
           ROCKETBET Privacy Policy, you may email at{" "}
-          <strong>therocketpe@gmail.com </strong> or {" "}
+          <strong>therocketbet@gmail.com </strong> or {" "}
           <strong>support@rocketbet.in </strong> or write to us at the following
           address – <strong>Street 23/21, Block-B, Patel Nagar-ND-08</strong>.
         </p>
