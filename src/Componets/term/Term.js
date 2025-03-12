@@ -221,7 +221,7 @@ const Term = ({ setTermsModal }) => {
           information/Payments/Refunds/ Technical Issues…Etc. provided by you or
           ROCKETBET Privacy Policy, you may email at{" "}
           <strong>therocketbet@gmail.com </strong> or {" "}
-          <strong>support@rocketbet.in </strong> or write to us at the following
+          <strong>support@rocketbet.club </strong> or write to us at the following
           address – <strong>Street 23/21, Block-B, Patel Nagar-ND-08</strong>.
         </p>
         <p>

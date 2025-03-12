@@ -117,7 +117,7 @@ const PrivacyPolicy = ({ setTermsModal }) => {
         Email: <a href="mailto:therocketbet@gmail.com">therocketbet@gmail.com</a>
       </p>
       <p>
-       Support Email: <a href="mailto:support@rocketbet.in">support@rocketbet.in</a>
+       Support Email: <a href="mailto:support@rocketbet.club">support@rocketbet.club</a>
       </p>
       <p>Address: Street 23/21, Block-B, Patel Nagar-ND-08</p>
       <p className="rocket-policy">Thanks & Regards</p>

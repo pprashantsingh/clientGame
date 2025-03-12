@@ -38,7 +38,7 @@ const Footer = () => {
                   <img src={images?.mail} alt="" />
                 </div>
                 <div className="_mail_title_container">
-                  <p className="_mail_title">support@rocketbet.in</p>
+                  <p className="_mail_title">support@rocketbet.club </p>
                 </div>
               </div>
 
@@ -277,7 +277,7 @@ const Footer = () => {
                     <img src={images?.mail} alt="" />
                   </div>
                   <div className="_mail_title_container">
-                    <p className="_mail_title">support@rocketbet.in</p>
+                    <p className="_mail_title">support@rocketbet.club</p>
                   </div>
                 </div>
 
